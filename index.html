@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="count-down" class="hidden"></h1>
+    <h2 class="alert-game">
+      <span>Are you ready ??</span>
+      <span>touch "start"</span>
+    </h2>
+    <h3 class="math-question hidden"></h3>
+
+    <form class="hidden number-game_form">
+      <!-- 게임 시작하기전 h2의 문구가 나오고 시작을 누르면 h2가 사리지고 input 값들을 나오게 해야함 -->
+      <input type="number" placeholder="Write a clac number" required />
+      <input type="submit" value="Check" />
+      <!-- 처음에 input 들을 hidden으로 숨겨 두고 게임 시작 나오게 할 것 -->
+    </form>
+    <button>Reset</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
