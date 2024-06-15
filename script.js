@@ -13,7 +13,7 @@ const mathOne = Math.floor(Math.random() * 100);
 const mathTwo = Math.floor(Math.random() * 100);
 const mathCalc = mathOne + mathTwo;
 
-let count = 7;
+let count = 10;
 function timer() {
     countDown.innerText = count;
   if (count <= 0) {
@@ -61,7 +61,7 @@ function startGame(event) {
 function handleGameAlert() {
     timeSetAlert();
     againQuestion();
-    setTimeout(timeSetAlert, 7000);
+    setTimeout(timeSetAlert, 10000);
     timer();
     setInterval(timer, 1000);
 } 
